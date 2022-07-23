@@ -4,9 +4,6 @@ public class Task {
 
         for (int i = 1; i < arrayOfInts.length; i++) {
             if (i % 2 == 0) {
-                arrayOfInts[i] = -1;
-            } else {
-                arrayOfInts[i] = 1;
             }
         }
 
